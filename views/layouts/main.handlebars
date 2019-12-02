@@ -1,9 +1,16 @@
-<li>
-	{{name}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+		<title>Burgers !</title>
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="/assets/burger.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
 
-	<button class="change-devoured" data-id="{{id}}" data-newsleep="{{devoured}}">
-		{{#if sleep}}Devoured !{{else}}Devour It!{{/if}}
-	</button>
+	</head>
+	<body>
+		{{{ body }}}
+	</body>
+</html>
 
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
-</li>
